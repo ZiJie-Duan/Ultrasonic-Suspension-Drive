@@ -1,0 +1,252 @@
+Dependencies for Project 'bobowayve', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\User\main.c)(0x62610027)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+I (..\bobowayve\pwm.h)(0x6255C3CD)
+I (User\Delay.h)(0x6130920D)
+F (.\User\Timer.c)(0x625583DB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/timer.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+I (User\Timer.h)(0x6255C3D9)
+F (.\User\Timer.h)(0x6255C3D9)()
+F (.\pwm.c)(0x625F7E2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/pwm.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (.\pwm.h)(0x6255C3CD)()
+F (.\Voice.c)(0x6259BACD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/voice.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (.\Voice.h)(0x6259B811)()
+F (.\User\Delay.c)(0x6130920E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/delay.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (.\User\Delay.h)(0x6130920D)()
+F (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\misc.c)(0x61AD795E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/misc.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+F (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_adc.c)(0x61AD795E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_adc.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_dac.c)(0x61AD795E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_dac.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x61AD795E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_gpio.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x61AD795E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_rcc.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x61AD795E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_tim.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x61AD795E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_usart.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\RTE_Driver\GPIO_STM32F10x.c)(0x5FC04FEA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/gpio_stm32f10x.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\RTE_Driver\GPIO_STM32F10x.h)(0x5FC04FEA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
+F (RTE\Device\STM32F103C6\RTE_Device.h)(0x5FC04FEA)()
+F (RTE\Device\STM32F103C6\startup_stm32f10x_ld.s)(0x61AD795E)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_LD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_ld.o)
+F (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)()
+F (RTE\Device\STM32F103C6\system_stm32f10x.c)(0x61AD795E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./User -I ../bobowayve-I./RTE/Device/STM32F103C6-I./RTE/_Target_1-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc"-I"C:/Users/Peter Duan/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver"-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (RTE\_Target_1\RTE_Components.h)(0x62599CE6)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD795E)
+I (C:\Users\Peter Duan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD795E)
